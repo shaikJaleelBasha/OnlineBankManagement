@@ -1,0 +1,40 @@
+.footer {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 50px;
+}
+
+.footer .contact-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer .contact-info a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.footer .contact-info a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}

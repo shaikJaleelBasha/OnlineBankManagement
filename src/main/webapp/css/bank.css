@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    width: 100%;
+}
+
+.profile {
+    margin-right: 20px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.username h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px;
+}
+
+.button-container img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #4caf50;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-container button:hover {
+    background-color: #fff;
+    color: #4caf50;
+}
+
+.right {
+    display: flex;
+    gap: 15px;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .profile img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .username h2 {
+        font-size: 20px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-container button {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
+
